@@ -15,12 +15,12 @@ print()
 if delta < 0:
     print("Raíz não pode ser negativo")
 else:
-#Resolvendo delta
+#Resolvendo Bhaskara
     bhaskara = (-b)
     delta = delta ** (1/2)
     X1 = (bhaskara + delta) / (2*a)
     X2 = (bhaskara - delta) / (2*a)
-#Resolvendo Bhaskara
+    
     print("O X1 é: %.0f"%X1)
     print("O X2 é: %.0f"%X2)
     print()
